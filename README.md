@@ -2,12 +2,10 @@
 
 <br><br><br>
 
-# Learning to Cartoonize Using White-box Cartoon Representations
+# [CVPR2020]Learning to Cartoonize Using White-box Cartoon Representations
 [project page](https://systemerrorwang.github.io/White-box-Cartoonization/) |   [paper](https://github.com/SystemErrorWang/White-box-Cartoonization/blob/master/paper/06791.pdf) |   [twitter](https://twitter.com/IlIIlIIIllIllII/status/1243108510423896065) |   [zhihu](https://zhuanlan.zhihu.com/p/117422157) |   [bilibili](https://www.bilibili.com/video/av56708333)
 
 Tensorflow implementation for CVPR2020 paper “Learning to Cartoonize Using White-box Cartoon Representations”.
-
-This repo in under construction, now inference code is available, training code will be updated soon
 
 <img src="images/method.jpg" width="1000px"/>
 <img src="images/use_cases.jpg" width="1000px"/>
@@ -60,6 +58,9 @@ This repo in under construction, now inference code is available, training code 
 - Run train.py, results will be saved in /train_cartoon folder
 - Codes are cleaned from production environment and untested
 - There may be minor problems but should be easy to resolve
+- Pretrained VGG_19 model can be found at following url:
+https://drive.google.com/file/d/1j0jDENjdwxCDb36meP6-u5xDBzmKBOjJ/view?usp=sharing
+
 
 
 ### Datasets
@@ -76,11 +77,23 @@ This repo in under construction, now inference code is available, training code 
 
 We are grateful for the help from Lvmin Zhang and Style2Paints Research
 
+## License
+Copyright (C) Xinrui Wang, Jinze Yu. All rights reserved. Licensed under the CC BY-NC-SA 4.0 
+Also, Commercial application is prohibited
+license (https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode).
+
 ## Citation
 
 If you use this code for your research, please cite our [paper](https://systemerrorwang.github.io/White-box-Cartoonization/):
 
-    Bib file coming soon.
+@InProceedings{Wang_2020_CVPR,
+author = {Wang, Xinrui and Yu, Jinze},
+title = {Learning to Cartoonize Using White-Box Cartoon Representations},
+booktitle = {IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+month = {June},
+year = {2020}
+}
+
 
 # 中文社区
 
